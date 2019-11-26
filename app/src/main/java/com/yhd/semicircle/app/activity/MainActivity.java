@@ -8,12 +8,12 @@ import com.de.rocket.bean.RecordBean;
 import com.de.rocket.bean.StatusBarBean;
 import com.de.rocket.ue.activity.RoActivity;
 import com.yhd.semicircle.app.R;
-import com.yhd.semicircle.app.frag.Frag_wave;
+import com.yhd.semicircle.app.frag.Frag_semicircle;
 
 public class MainActivity extends RoActivity {
 
     private Class[] roFragments = {
-            Frag_wave.class
+            Frag_semicircle.class
     };
 
     @Override
